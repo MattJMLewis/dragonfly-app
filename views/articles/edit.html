@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+</head>
+<body>
+    <form method="post", action="http://localhost:8080/articles">
+        Name:<br>
+        <input type="text" name="name" value="{{ server.name }}"><br>
+        Text:<br>
+        <input type="text" name="text" value="{{ server.text}}">
+
+        <input type="submit">
+    </form>
+
+</body>
+</html>
